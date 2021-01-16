@@ -1,0 +1,35 @@
+{
+    "Algorithmen und Datenstrukturen (WS2020/21)": {
+        "color": "0x3498db",
+        "icon": "<:AuD:780701333056913421>",
+        "name": "Algorithmen und Datenstrukturen",
+        "exerciseDeadline": 10,
+        "exercisePath": "Algorithmen und Datenstrukturen (WS2020/21) > Übungen",
+        "exerciseDocumentName": "aud\\d\\d.pdf",
+        "exerciseTime": "10:00 Uhr"
+    },
+    "Mathematik für Ingenieure C1 (Wintersemester 2020/21)": {
+        "color": "0xf1c40f",
+        "icon": ":abacus:",
+        "name": "Mathematik für Ingenieure C1",
+        "exerciseDeadline": 14,
+        "exercisePath": "Mathematik für Ingenieure C1 (Wintersemester 2020/21) > Übungen > Übungsaufgaben",
+        "exerciseDocumentName": "Blatt\\d\\d.pdf",
+        "exerciseTime": "12:00 Uhr"
+    },
+    "Konzeptionelle Modellierung [KonzMod] 2020WS": {
+        "color": "0x9b59b6",
+        "icon": "<:KonzMod:778981521868193822>",
+        "name": "Konzeptionelle Modellierung"
+    },
+    "Übungen zu Konzeptionelle Modellierung [UeKonzMod] 2020WS": {
+        "color": "0x9b59b6",
+        "icon": "<:KonzMod:778981521868193822>",
+        "name": "Übungen zu Konzeptionelle Modellierung"
+    },
+    "Grundlagen der Technischen Informatik (WS 2020/2021)": {
+        "color": "0xe74c3c",
+        "icon": "<:GTI:778980917553135616>",
+        "name": "Grundlagen der Technischen Informatik"
+    }
+}

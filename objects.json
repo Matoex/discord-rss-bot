@@ -1,0 +1,24 @@
+{
+    "filetype": {
+        "file": {
+            "icon": ":file_folder:"
+        },
+        "tst": {
+            "icon": ":pen_ballpoint:"
+        },
+        "mcst": {
+            "icon": ":movie_camera:"
+        }
+    },
+    "status":{
+        "Die Datei wurde hinzugefügt.":{
+            "icon":":new:"
+        },
+        "-new_test_online-":{
+            "icon":":new:"
+        },
+        "Die Datei wurde aktualisiert.":{
+            "icon": ":arrows_counterclockwise:"
+        }
+    }
+}

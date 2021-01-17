@@ -150,10 +150,16 @@ async function checkUebung(parsedItem, link, time) {
         //Check File Name
         if (!filename.match(subject.exerciseDocumentName)) return;
 
-        const nowdate = new Date(time)
-
-        let expiredate = new Date(time);
-        expiredate.setDate(expiredate.getDate() + subject.exerciseDeadline);
+        let nowdate = new Date();
+		nowdate=new Date(nowdate.getTime() + 24*60*60*1000*((1 + 7 - nowdate.getDay()) % 7+ 7*0-3));
+        
+		let expiredate = new Date();
+        
+		expiredate=new Date(expiredate.getTime() + 24*60*60*1000*((1 + 7 - expiredate.getDay()) % 7+ 7*0-3));
+		expiredate = new Date(expiredate.getTime()+subject.exerciseDeadline*24*60*60*1000);
+		console.log(expiredate)
+		
+		
 
         const message = [
             subject.icon + " " + subject.name + " - " + filename,
